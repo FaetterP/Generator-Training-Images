@@ -57,127 +57,141 @@ namespace Generator_Training_Images
             this.OpenButton.TabIndex = 0;
             this.OpenButton.Text = "Open";
             this.OpenButton.UseVisualStyleBackColor = true;
+            this.OpenButton.Click += new System.EventHandler(this.OpenButton_Click);
             // 
             // BigPictureBox
             // 
-            this.BigPictureBox.Location = new System.Drawing.Point(189, 54);
+            this.BigPictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BigPictureBox.Location = new System.Drawing.Point(55, 48);
+            this.BigPictureBox.Margin = new System.Windows.Forms.Padding(0);
             this.BigPictureBox.Name = "BigPictureBox";
-            this.BigPictureBox.Size = new System.Drawing.Size(100, 50);
+            this.BigPictureBox.Size = new System.Drawing.Size(120, 120);
             this.BigPictureBox.TabIndex = 1;
             this.BigPictureBox.TabStop = false;
             // 
             // UpButton
             // 
-            this.UpButton.Location = new System.Drawing.Point(463, 41);
+            this.UpButton.BackgroundImage = global::Generator_Training_Images.Properties.Resources.up;
+            this.UpButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.UpButton.Location = new System.Drawing.Point(199, 12);
             this.UpButton.Name = "UpButton";
-            this.UpButton.Size = new System.Drawing.Size(75, 23);
+            this.UpButton.Size = new System.Drawing.Size(50, 50);
             this.UpButton.TabIndex = 2;
-            this.UpButton.Text = "Up";
             this.UpButton.UseVisualStyleBackColor = true;
             // 
             // DownButton
             // 
-            this.DownButton.Location = new System.Drawing.Point(565, 41);
+            this.DownButton.BackgroundImage = global::Generator_Training_Images.Properties.Resources.down;
+            this.DownButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.DownButton.Location = new System.Drawing.Point(255, 12);
             this.DownButton.Name = "DownButton";
-            this.DownButton.Size = new System.Drawing.Size(75, 23);
+            this.DownButton.Size = new System.Drawing.Size(50, 50);
             this.DownButton.TabIndex = 3;
-            this.DownButton.Text = "Down";
             this.DownButton.UseVisualStyleBackColor = true;
             // 
             // LeftButton
             // 
-            this.LeftButton.Location = new System.Drawing.Point(463, 81);
+            this.LeftButton.BackgroundImage = global::Generator_Training_Images.Properties.Resources.left;
+            this.LeftButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.LeftButton.Location = new System.Drawing.Point(199, 68);
             this.LeftButton.Name = "LeftButton";
-            this.LeftButton.Size = new System.Drawing.Size(75, 23);
+            this.LeftButton.Size = new System.Drawing.Size(50, 50);
             this.LeftButton.TabIndex = 4;
-            this.LeftButton.Text = "Left";
             this.LeftButton.UseVisualStyleBackColor = true;
             // 
             // RightButton
             // 
-            this.RightButton.Location = new System.Drawing.Point(565, 81);
+            this.RightButton.BackgroundImage = global::Generator_Training_Images.Properties.Resources.right;
+            this.RightButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.RightButton.Location = new System.Drawing.Point(255, 68);
             this.RightButton.Name = "RightButton";
-            this.RightButton.Size = new System.Drawing.Size(75, 23);
+            this.RightButton.Size = new System.Drawing.Size(50, 50);
             this.RightButton.TabIndex = 5;
-            this.RightButton.Text = "Right";
             this.RightButton.UseVisualStyleBackColor = true;
             // 
             // DownRightButton
             // 
-            this.DownRightButton.Location = new System.Drawing.Point(565, 162);
+            this.DownRightButton.BackgroundImage = global::Generator_Training_Images.Properties.Resources.downright;
+            this.DownRightButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.DownRightButton.Location = new System.Drawing.Point(255, 180);
             this.DownRightButton.Name = "DownRightButton";
-            this.DownRightButton.Size = new System.Drawing.Size(75, 23);
+            this.DownRightButton.Size = new System.Drawing.Size(50, 50);
             this.DownRightButton.TabIndex = 9;
-            this.DownRightButton.Text = "DownRight";
             this.DownRightButton.UseVisualStyleBackColor = true;
             // 
             // DownLeftButton
             // 
-            this.DownLeftButton.Location = new System.Drawing.Point(463, 162);
+            this.DownLeftButton.BackgroundImage = global::Generator_Training_Images.Properties.Resources.downleft;
+            this.DownLeftButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.DownLeftButton.Location = new System.Drawing.Point(199, 180);
             this.DownLeftButton.Name = "DownLeftButton";
-            this.DownLeftButton.Size = new System.Drawing.Size(75, 23);
+            this.DownLeftButton.Size = new System.Drawing.Size(50, 50);
             this.DownLeftButton.TabIndex = 8;
-            this.DownLeftButton.Text = "DownLeft";
             this.DownLeftButton.UseVisualStyleBackColor = true;
             // 
             // UpRightButton
             // 
-            this.UpRightButton.Location = new System.Drawing.Point(565, 122);
+            this.UpRightButton.BackgroundImage = global::Generator_Training_Images.Properties.Resources.upright;
+            this.UpRightButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.UpRightButton.Location = new System.Drawing.Point(255, 124);
             this.UpRightButton.Name = "UpRightButton";
-            this.UpRightButton.Size = new System.Drawing.Size(75, 23);
+            this.UpRightButton.Size = new System.Drawing.Size(50, 50);
             this.UpRightButton.TabIndex = 7;
-            this.UpRightButton.Text = "UpRight";
             this.UpRightButton.UseVisualStyleBackColor = true;
             // 
             // UpLeftButton
             // 
-            this.UpLeftButton.Location = new System.Drawing.Point(463, 122);
+            this.UpLeftButton.BackgroundImage = global::Generator_Training_Images.Properties.Resources.upleft;
+            this.UpLeftButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.UpLeftButton.Location = new System.Drawing.Point(199, 124);
             this.UpLeftButton.Name = "UpLeftButton";
-            this.UpLeftButton.Size = new System.Drawing.Size(75, 23);
+            this.UpLeftButton.Size = new System.Drawing.Size(50, 50);
             this.UpLeftButton.TabIndex = 6;
-            this.UpLeftButton.Text = "UpLeft";
             this.UpLeftButton.UseVisualStyleBackColor = true;
             // 
             // WhiteButton
             // 
-            this.WhiteButton.Location = new System.Drawing.Point(565, 203);
+            this.WhiteButton.BackgroundImage = global::Generator_Training_Images.Properties.Resources.white;
+            this.WhiteButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.WhiteButton.Location = new System.Drawing.Point(255, 236);
             this.WhiteButton.Name = "WhiteButton";
-            this.WhiteButton.Size = new System.Drawing.Size(75, 23);
+            this.WhiteButton.Size = new System.Drawing.Size(50, 50);
             this.WhiteButton.TabIndex = 11;
-            this.WhiteButton.Text = "White";
             this.WhiteButton.UseVisualStyleBackColor = true;
             // 
             // BlackButton
             // 
-            this.BlackButton.Location = new System.Drawing.Point(463, 203);
+            this.BlackButton.BackgroundImage = global::Generator_Training_Images.Properties.Resources.black;
+            this.BlackButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BlackButton.Location = new System.Drawing.Point(199, 236);
             this.BlackButton.Name = "BlackButton";
-            this.BlackButton.Size = new System.Drawing.Size(75, 23);
+            this.BlackButton.Size = new System.Drawing.Size(50, 50);
             this.BlackButton.TabIndex = 10;
-            this.BlackButton.Text = "Black";
             this.BlackButton.UseVisualStyleBackColor = true;
             // 
             // SkipButton
             // 
-            this.SkipButton.Location = new System.Drawing.Point(669, 122);
+            this.SkipButton.Location = new System.Drawing.Point(118, 186);
             this.SkipButton.Name = "SkipButton";
-            this.SkipButton.Size = new System.Drawing.Size(75, 23);
+            this.SkipButton.Size = new System.Drawing.Size(75, 50);
             this.SkipButton.TabIndex = 12;
             this.SkipButton.Text = "Skip";
             this.SkipButton.UseVisualStyleBackColor = true;
+            this.SkipButton.Click += new System.EventHandler(this.SkipButton_Click);
             // 
             // SmallPictureBox
             // 
-            this.SmallPictureBox.Location = new System.Drawing.Point(12, 54);
+            this.SmallPictureBox.Location = new System.Drawing.Point(12, 60);
             this.SmallPictureBox.Name = "SmallPictureBox";
-            this.SmallPictureBox.Size = new System.Drawing.Size(100, 50);
+            this.SmallPictureBox.Size = new System.Drawing.Size(8, 8);
             this.SmallPictureBox.TabIndex = 13;
             this.SmallPictureBox.TabStop = false;
             // 
             // ChooseFolderButton
             // 
-            this.ChooseFolderButton.Location = new System.Drawing.Point(12, 214);
+            this.ChooseFolderButton.Location = new System.Drawing.Point(12, 186);
             this.ChooseFolderButton.Name = "ChooseFolderButton";
-            this.ChooseFolderButton.Size = new System.Drawing.Size(100, 42);
+            this.ChooseFolderButton.Size = new System.Drawing.Size(100, 50);
             this.ChooseFolderButton.TabIndex = 14;
             this.ChooseFolderButton.Text = "Choose save folder";
             this.ChooseFolderButton.UseVisualStyleBackColor = true;
@@ -185,7 +199,7 @@ namespace Generator_Training_Images
             // PathLabel
             // 
             this.PathLabel.AutoSize = true;
-            this.PathLabel.Location = new System.Drawing.Point(12, 259);
+            this.PathLabel.Location = new System.Drawing.Point(9, 239);
             this.PathLabel.Name = "PathLabel";
             this.PathLabel.Size = new System.Drawing.Size(41, 17);
             this.PathLabel.TabIndex = 15;
@@ -195,7 +209,7 @@ namespace Generator_Training_Images
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(315, 298);
             this.Controls.Add(this.PathLabel);
             this.Controls.Add(this.ChooseFolderButton);
             this.Controls.Add(this.SkipButton);
@@ -213,7 +227,7 @@ namespace Generator_Training_Images
             this.Controls.Add(this.SmallPictureBox);
             this.Controls.Add(this.BigPictureBox);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Generator training images";
             ((System.ComponentModel.ISupportInitialize)(this.BigPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SmallPictureBox)).EndInit();
             this.ResumeLayout(false);
