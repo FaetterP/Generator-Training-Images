@@ -78,51 +78,61 @@ namespace Generator_Training_Images
         private void UpButton_Click(object sender, EventArgs e)
         {
             Inflate(new int[] { 1, 7, 6, 2 }, false, RotateFlipType.Rotate90FlipX);
+            PrintNextPicture();
         }
 
         private void DownButton_Click(object sender, EventArgs e)
         {
             Inflate(new int[] { 6, 2, 1, 7 }, false, RotateFlipType.Rotate90FlipX);
+            PrintNextPicture();
         }
 
         private void LeftButton_Click(object sender, EventArgs e)
         {
             Inflate(new int[] { 2, 1, 7, 6 }, true, RotateFlipType.Rotate90FlipX);
+            PrintNextPicture();
         }
 
         private void RightButton_Click(object sender, EventArgs e)
         {
             Inflate(new int[] { 7, 6, 2, 1 }, true, RotateFlipType.Rotate90FlipX);
+            PrintNextPicture();
         }
 
         private void UpLeftButton_Click(object sender, EventArgs e)
         {
             Inflate(new int[] { 4, 3, 9, 8 }, false, RotateFlipType.Rotate180FlipX);
+            PrintNextPicture();
         }
 
         private void UpRightButton_Click(object sender, EventArgs e)
         {
             Inflate(new int[] { 3, 9, 8, 4 }, true, RotateFlipType.Rotate180FlipX);
+            PrintNextPicture();
         }
 
         private void DownLeftButton_Click(object sender, EventArgs e)
         {
             Inflate(new int[] { 8, 4, 3, 9 }, true, RotateFlipType.Rotate180FlipX);
+            PrintNextPicture();
         }
 
         private void DownRightButton_Click(object sender, EventArgs e)
         {
             Inflate(new int[] { 9, 8, 4, 3 }, false, RotateFlipType.Rotate180FlipX);
+            PrintNextPicture();
         }
 
         private void BlackButton_Click(object sender, EventArgs e)
         {
             Inflate(new int[] { 5, 5, 5, 5 }, false, RotateFlipType.Rotate90FlipX);
+            PrintNextPicture();
         }
 
         private void WhiteButton_Click(object sender, EventArgs e)
         {
             Inflate(new int[] { 10, 10, 10, 10 }, false, RotateFlipType.Rotate90FlipX);
+            PrintNextPicture();
         }
 
         /*
