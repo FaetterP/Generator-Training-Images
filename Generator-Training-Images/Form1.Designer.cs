@@ -78,6 +78,7 @@ namespace Generator_Training_Images
             this.UpButton.Size = new System.Drawing.Size(50, 50);
             this.UpButton.TabIndex = 2;
             this.UpButton.UseVisualStyleBackColor = true;
+            this.UpButton.Click += new System.EventHandler(this.UpButton_Click);
             // 
             // DownButton
             // 
@@ -88,6 +89,7 @@ namespace Generator_Training_Images
             this.DownButton.Size = new System.Drawing.Size(50, 50);
             this.DownButton.TabIndex = 3;
             this.DownButton.UseVisualStyleBackColor = true;
+            this.DownButton.Click += new System.EventHandler(this.DownButton_Click);
             // 
             // LeftButton
             // 
@@ -98,6 +100,7 @@ namespace Generator_Training_Images
             this.LeftButton.Size = new System.Drawing.Size(50, 50);
             this.LeftButton.TabIndex = 4;
             this.LeftButton.UseVisualStyleBackColor = true;
+            this.LeftButton.Click += new System.EventHandler(this.LeftButton_Click);
             // 
             // RightButton
             // 
@@ -108,6 +111,7 @@ namespace Generator_Training_Images
             this.RightButton.Size = new System.Drawing.Size(50, 50);
             this.RightButton.TabIndex = 5;
             this.RightButton.UseVisualStyleBackColor = true;
+            this.RightButton.Click += new System.EventHandler(this.RightButton_Click);
             // 
             // DownRightButton
             // 
@@ -118,6 +122,7 @@ namespace Generator_Training_Images
             this.DownRightButton.Size = new System.Drawing.Size(50, 50);
             this.DownRightButton.TabIndex = 9;
             this.DownRightButton.UseVisualStyleBackColor = true;
+            this.DownRightButton.Click += new System.EventHandler(this.DownRightButton_Click);
             // 
             // DownLeftButton
             // 
@@ -128,6 +133,7 @@ namespace Generator_Training_Images
             this.DownLeftButton.Size = new System.Drawing.Size(50, 50);
             this.DownLeftButton.TabIndex = 8;
             this.DownLeftButton.UseVisualStyleBackColor = true;
+            this.DownLeftButton.Click += new System.EventHandler(this.DownLeftButton_Click);
             // 
             // UpRightButton
             // 
@@ -138,6 +144,7 @@ namespace Generator_Training_Images
             this.UpRightButton.Size = new System.Drawing.Size(50, 50);
             this.UpRightButton.TabIndex = 7;
             this.UpRightButton.UseVisualStyleBackColor = true;
+            this.UpRightButton.Click += new System.EventHandler(this.UpRightButton_Click);
             // 
             // UpLeftButton
             // 
@@ -148,6 +155,7 @@ namespace Generator_Training_Images
             this.UpLeftButton.Size = new System.Drawing.Size(50, 50);
             this.UpLeftButton.TabIndex = 6;
             this.UpLeftButton.UseVisualStyleBackColor = true;
+            this.UpLeftButton.Click += new System.EventHandler(this.UpLeftButton_Click);
             // 
             // WhiteButton
             // 
@@ -158,6 +166,7 @@ namespace Generator_Training_Images
             this.WhiteButton.Size = new System.Drawing.Size(50, 50);
             this.WhiteButton.TabIndex = 11;
             this.WhiteButton.UseVisualStyleBackColor = true;
+            this.WhiteButton.Click += new System.EventHandler(this.WhiteButton_Click);
             // 
             // BlackButton
             // 
@@ -168,6 +177,7 @@ namespace Generator_Training_Images
             this.BlackButton.Size = new System.Drawing.Size(50, 50);
             this.BlackButton.TabIndex = 10;
             this.BlackButton.UseVisualStyleBackColor = true;
+            this.BlackButton.Click += new System.EventHandler(this.BlackButton_Click);
             // 
             // SkipButton
             // 
@@ -195,6 +205,7 @@ namespace Generator_Training_Images
             this.ChooseFolderButton.TabIndex = 14;
             this.ChooseFolderButton.Text = "Choose save folder";
             this.ChooseFolderButton.UseVisualStyleBackColor = true;
+            this.ChooseFolderButton.Click += new System.EventHandler(this.ChooseFolderButton_Click);
             // 
             // PathLabel
             // 
