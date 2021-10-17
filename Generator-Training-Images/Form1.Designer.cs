@@ -220,6 +220,7 @@ namespace Generator_Training_Images
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(315, 298);
             this.Controls.Add(this.PathLabel);
             this.Controls.Add(this.ChooseFolderButton);
